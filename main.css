@@ -1,0 +1,24 @@
+/* Navbar Positioning */
+.navbar-inverse .navbar-nav {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Dropdown Hover to Toggle */
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+/*.collapse .navbar-nav > li.dropdown:hover > a,
+.collapse .navbar-nav > li.dropdown:hover > a:hover,
+.collapse .navbar-nav > li.dropdown:hover > a:focus {
+    background-color: #999;
+    color: #353;
+}*/
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        display: block;
+    }
+}
